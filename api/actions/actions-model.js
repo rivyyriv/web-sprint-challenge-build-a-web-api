@@ -9,6 +9,7 @@ module.exports = {
 };
 
 function get(id) {
+  
   let query = db('actions');
 
   if (id) {
